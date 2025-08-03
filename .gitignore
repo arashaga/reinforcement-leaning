@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+.nv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files and outputs
+/models/
+models/
+notebooks/models/
+trainer_output/
+trainer_output/**
+
+# Video files and outputs
+/video/
+video/
+*.mp4
+*.avi
+*.mov
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+
+# VSCode settings
+.vscode/
+
+# Misc
+*.swp
+*.bak
+*.csv
+*.gz
+*.zip
+**/*.csv
+**/*.gz
+**/*.zip
+*.tmp
+*.data
+**/*.data
